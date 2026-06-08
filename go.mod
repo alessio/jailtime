@@ -1,3 +1,3 @@
-module blichmann.eu/code/jailtime
+module github.com/alessio/jailtime
 
-go 1.11
+go 1.26
