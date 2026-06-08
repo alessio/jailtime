@@ -12,7 +12,10 @@ on:
 
 jobs:
   build:
-    runs-on: macis-26
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-26]
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-go@v6
