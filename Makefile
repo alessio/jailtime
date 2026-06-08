@@ -28,7 +28,7 @@
 # Source Configuration
 version = 0.8
 c_year ?= $(shell date +%Y)
-go_package = blichmann.eu/code/jailtime
+go_package = github.com/alessio/jailtime
 go_programs = jailtime
 source_only_tgz = ../jailtime_$(version).orig.tar.xz
 
