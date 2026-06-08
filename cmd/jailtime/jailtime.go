@@ -34,10 +34,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"blichmann.eu/code/jailtime/internal/action"
-	"blichmann.eu/code/jailtime/internal/spec"
-	"blichmann.eu/code/jailtime/pkg/copy"
-	"blichmann.eu/code/jailtime/pkg/loader"
+	"github.com/alessio/jailtime/internal/action"
+	"github.com/alessio/jailtime/internal/spec"
+	"github.com/alessio/jailtime/pkg/copy"
+	"github.com/alessio/jailtime/pkg/loader"
 )
 
 var (
